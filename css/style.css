@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-color: rgba(231, 234, 237);
+    --font-family: "Montserrat", sans-serif;
+    --red-color: rgba(252, 20, 40);
+}
+body {
+    padding: 0 15px;
+}
+header {
+    padding: 10px;
+}
+header nav .col-md-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav .col-md-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+header nav .logo {
+    margin-left: -30%;
+}
+header nav .logo h2 {
+    font-family: var(--font-family);
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header nav .list {
+    margin-left: 8%;
+}
+header nav .list ul li{
+    display: inline-block;
+    padding: 0px 10px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+header nav .list ul li a{
+    text-decoration: none;
+    color: rgba(102, 102, 102, 0.781);
+    font-family: var(--font-family);
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+}
+header nav .list ul li a.active {
+    border-bottom: 2px solid black;
+    color: black;
+}
+header nav .list ul li:hover a{
+    color: black;
+    border-bottom: 2px solid black;
+}
+header nav .btn h2 {
+    position: relative;
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 14px;
+    font-family: 600;
+}
+header nav .btn h2::after {
+    content: "";
+    position: absolute;
+    bottom: 8%;
+    right: -27%;
+    height: 25px;
+    width: 2px;
+    background: var(--bg-color);
+}
+header nav .icn i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+header nav .icn i:last-child {
+    position: relative;
+}
+header nav .icn i:last-child::after {
+    content: "0";
+    position: absolute;
+    top: 0;
+    right: -20%;
+    height: 12px;
+    width: 12px;
+    font-size: 7px;
+    text-align: center;
+    border-radius: 50%;
+    background: red;
+}
+#banner {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: var(--bg-color);
+    border-radius: 30px;
+    padding: 14% 10%;
+}
+#banner .content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+#banner .content h2 {
+    font-size: 80px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: black;
+    margin-top: 0;
+}
+#banner .content h3 {
+    font-size: 140px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    color: white;
+    margin-top: -2%;
+}
+#banner .content a {
+    text-decoration: none;
+    color: white;
+    background: var(--red-color);
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 30px;
+}
+#banner .des {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    height: auto;
+    width: 400px;
+    text-align: right;
+}
+#banner .des h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+#banner .des p {
+    font-size: 12px;
+}

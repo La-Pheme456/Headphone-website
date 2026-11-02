@@ -148,7 +148,7 @@ header nav .icn i:last-child::after {
     font-size: 12px;
 }
 /* headphone styling */
-/* #banner {
+ #banner {
     overflow: hidden;
     transition: background-color 1s ease;
 }
@@ -179,4 +179,4 @@ header nav .icn i:last-child::after {
     100% {
          transform: translateY(0px) rotate(-2deg);
     }
-} */
+}

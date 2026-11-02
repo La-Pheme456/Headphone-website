@@ -147,3 +147,36 @@ header nav .icn i:last-child::after {
 #banner .des p {
     font-size: 12px;
 }
+/* headphone styling */
+/* #banner {
+    overflow: hidden;
+    transition: background-color 1s ease;
+}
+#banner .headphone-showcase {
+    position: absolute;
+    width: 38%;
+    top: 12%;
+    left: 38%;
+    z-index: 3;
+}
+#banner .headphone-showcase img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    opacity: 1;
+    transform-origin: center;
+    animation: headphoneFloat 4s ease infinite;
+    transition: opacity 1s ease;
+}
+@keyframes headphoneFloat {
+    0% {
+        transform: translateY(0) rotate(-2deg);
+    }
+    50% {
+         transform: translateY(-15px) rotate(2deg);
+    }
+    100% {
+         transform: translateY(0px) rotate(-2deg);
+    }
+} */
